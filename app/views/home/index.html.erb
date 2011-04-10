@@ -1,0 +1,9 @@
+<article>
+<% @types.each do |type| %>
+    <section>
+        <%= type.name %>
+        <%= type.description %>
+        <%= link_to 'Show', type %>
+    </section>
+<% end %>
+</article>
